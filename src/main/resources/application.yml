@@ -1,0 +1,13 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /generator
+
+
+logging:
+  config: classpath:logback-framework.xml
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+
+
